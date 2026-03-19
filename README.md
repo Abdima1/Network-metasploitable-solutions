@@ -3,6 +3,8 @@
 
 $nmap -A -Pn 192.168.56.101
 
+or nmap -sC sV -p- <target_ip address> -vv
+
 Starting Nmap 7.60 ( https://nmap.org ) at 2018-05-21 10:04 UTC
 Stats: 0:01:23 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
 NSE Timing: About 99.48% done; ETC: 10:05 (0:00:00 remaining)
